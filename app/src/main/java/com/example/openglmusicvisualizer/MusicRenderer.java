@@ -17,7 +17,7 @@ public class MusicRenderer implements GLSurfaceView.Renderer {
 
     @Override
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
-        GLES20.glClearColor(1f, 0, 0, 1);
+        GLES20.glClearColor(0f, 1, 1, 1);
         mTriangle = new Triangle();
         msquare = new Square();
     }
